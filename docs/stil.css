@@ -1,0 +1,5 @@
+:root{--zemin:#ffffff;--yazi:#1a1a1a;--vurgu:#1F4E79;--ikincil:#E0A100}
+@media (prefers-color-scheme:dark){:root{--zemin:#121417;--yazi:#eceff3;--vurgu:#8cb8e6}}
+body{background:var(--zemin);color:var(--yazi);font-family:system-ui,"Segoe UI",Roboto,sans-serif;font-size:1.1rem;line-height:1.6;max-width:46rem;margin:0 auto;padding:1.5rem 1rem 3rem}
+h1,h2{color:var(--vurgu);line-height:1.25}a{color:var(--vurgu)}
+nav a{margin-right:1rem}
